@@ -71,16 +71,20 @@ h2 {
   transform: translate(-50%, -50%);
   right: 0;
 }
+.form .line-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
 .form .middle {
-  max-width: 2300px;
+  max-width: 100%;
 }
 .form .small {
   max-width: 130px;
 }
-.form .adress .input {
-  margin-right: 16px;
+.form .line-wrapper .input {
+  /*  margin-right: 16px; */
 }
-.form .adress .input:last-child {
+.form .line-wrapper .input:last-child {
   margin-right: 0;
 }
 .form .large {

@@ -65,16 +65,20 @@ h2 {
         transform: translate(-50%, -50%);
         right: 0;
     }
+    .line-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
     .middle {
-        max-width: 254px;
+        max-width: 100%;
     }
     .small {
         max-width: 130px;
     }
-    .adress .input {
-        margin-right: 16px;
+    .line-wrapper .input {
+       /*  margin-right: 16px; */
     }
-    .adress .input:last-child {
+    .line-wrapper .input:last-child {
         margin-right: 0;
     }
     .large {
